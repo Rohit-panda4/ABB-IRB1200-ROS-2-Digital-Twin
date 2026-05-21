@@ -266,4 +266,5 @@ So the system behaves like a digital twin: the robot is visualized, planned, and
 ## Outcomes
 
 We’ve achieved a solid working digital twin foundation for the ABB IRB1200 project. The workspace builds successfully, the robot model loads in RViz, arm planning works correctly, the Robotiq gripper is integrated and visible, and the palletizing scene with table, pallet, and boxes is being published. We also fixed the major OMPL planning configuration issue, so MoveIt now starts and plans properly for the arm.
+
 ![Outcomes](ROS%20screen%20Shots/Image%204.png)

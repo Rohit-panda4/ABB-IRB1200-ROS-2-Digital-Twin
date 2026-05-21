@@ -1,0 +1,323 @@
+[INFO] [launch]: All log files can be found below /home/rohit_bot/.ros/log/2026-05-21-13-52-47-594903-Ubuntu-6771
+[INFO] [launch]: Default logging verbosity is set to INFO
+WARNING:root:[33;21mCannot infer URDF from `/home/rohit_bot/abb_ws/install/abb_irb1200_5_90_moveit_config/share/abb_irb1200_5_90_moveit_config`. -- using config/abb_bringup.urdf[0m
+WARNING:root:[33;21mCannot infer SRDF from `/home/rohit_bot/abb_ws/install/abb_irb1200_5_90_moveit_config/share/abb_irb1200_5_90_moveit_config`. -- using config/abb_bringup.srdf[0m
+[INFO] [move_group-1]: process started with pid [6774]
+[INFO] [rviz2-2]: process started with pid [6776]
+[INFO] [static_transform_publisher-3]: process started with pid [6778]
+[INFO] [robot_state_publisher-4]: process started with pid [6780]
+[static_transform_publisher-3] [WARN] [1779351772.510088162] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-3] [INFO] [1779351773.256476173] [static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'world' to 'base_link'
+[rviz2-2] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[robot_state_publisher-4] [WARN] [1779351773.460328008] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-4] [INFO] [1779351773.462253424] [robot_state_publisher]: got segment base
+[robot_state_publisher-4] [INFO] [1779351773.462414271] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-4] [INFO] [1779351773.462460464] [robot_state_publisher]: got segment flange
+[robot_state_publisher-4] [INFO] [1779351773.462490955] [robot_state_publisher]: got segment left_inner_finger
+[robot_state_publisher-4] [INFO] [1779351773.462516064] [robot_state_publisher]: got segment left_inner_finger_pad
+[robot_state_publisher-4] [INFO] [1779351773.462540921] [robot_state_publisher]: got segment left_inner_knuckle
+[robot_state_publisher-4] [INFO] [1779351773.462564987] [robot_state_publisher]: got segment left_outer_finger
+[robot_state_publisher-4] [INFO] [1779351773.462587058] [robot_state_publisher]: got segment left_outer_knuckle
+[robot_state_publisher-4] [INFO] [1779351773.462609235] [robot_state_publisher]: got segment link_1
+[robot_state_publisher-4] [INFO] [1779351773.464259488] [robot_state_publisher]: got segment link_2
+[robot_state_publisher-4] [INFO] [1779351773.464321996] [robot_state_publisher]: got segment link_3
+[robot_state_publisher-4] [INFO] [1779351773.464354939] [robot_state_publisher]: got segment link_4
+[robot_state_publisher-4] [INFO] [1779351773.464380607] [robot_state_publisher]: got segment link_5
+[robot_state_publisher-4] [INFO] [1779351773.464404741] [robot_state_publisher]: got segment link_6
+[robot_state_publisher-4] [INFO] [1779351773.464427779] [robot_state_publisher]: got segment right_inner_finger
+[robot_state_publisher-4] [INFO] [1779351773.464453741] [robot_state_publisher]: got segment right_inner_finger_pad
+[robot_state_publisher-4] [INFO] [1779351773.464479144] [robot_state_publisher]: got segment right_inner_knuckle
+[robot_state_publisher-4] [INFO] [1779351773.464504466] [robot_state_publisher]: got segment right_outer_finger
+[robot_state_publisher-4] [INFO] [1779351773.464530410] [robot_state_publisher]: got segment right_outer_knuckle
+[robot_state_publisher-4] [INFO] [1779351773.464557672] [robot_state_publisher]: got segment robotiq_140_base_link
+[robot_state_publisher-4] [INFO] [1779351773.464589972] [robot_state_publisher]: got segment robotiq_base_link
+[robot_state_publisher-4] [INFO] [1779351773.464622444] [robot_state_publisher]: got segment tool0
+[move_group-1] Error:   Name of virtual joint is not specified
+[move_group-1]          at line 94 in ./src/model.cpp
+[move_group-1] [INFO] [1779351774.861470006] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.12175 seconds
+[move_group-1] [INFO] [1779351774.861721469] [moveit_robot_model.robot_model]: Loading robot model 'abb_irb1200_5_90'...
+[move_group-1] [INFO] [1779351774.861762722] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-1] [WARN] [1779351775.181782884] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[move_group-1] [INFO] [1779351775.939606378] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-1] [INFO] [1779351775.946580420] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-1] [INFO] [1779351775.962626306] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-1] [INFO] [1779351776.007876507] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-1] [INFO] [1779351776.007944897] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-1] [INFO] [1779351776.078890760] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-1] [INFO] [1779351776.082239306] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-1] [INFO] [1779351776.129811733] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-1] [INFO] [1779351776.159784238] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-1] [WARN] [1779351776.176877761] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-1] [ERROR] [1779351776.176943612] [moveit.ros.occupancy_map_monitor.middleware_handle]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-1] [INFO] [1779351776.277770015] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-1] [INFO] [1779351776.524745870] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-1] [INFO] [1779351776.564694016] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1779351776.564761483] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1779351776.564776076] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1779351776.564830618] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1779351776.564870580] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1779351776.564885760] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1779351776.566948831] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1779351776.566975626] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was not set. Using default value: 0.020000
+[move_group-1] [INFO] [1779351776.566995061] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1779351776.567025935] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Ruckig trajectory smoothing.'
+[move_group-1] [INFO] [1779351776.567037530] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1779351776.567045950] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1779351776.567053673] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1779351776.567062207] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1779351776.567069975] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1779351776.567077263] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [INFO] [1779351776.609721569] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[move_group-1] [INFO] [1779351776.652795925] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
+[move_group-1] [INFO] [1779351776.686537230] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1779351776.690639898] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[move_group-1] [INFO] [1779351776.690668191] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[move_group-1] [INFO] [1779351776.691307754] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-1] [INFO] [1779351776.691372074] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[move_group-1] [INFO] [1779351776.691389320] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1779351776.691421203] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-1] [INFO] [1779351776.691435241] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[move_group-1] [INFO] [1779351776.691446717] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[move_group-1] [INFO] [1779351776.691476818] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-1] [INFO] [1779351776.691488084] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-1] [INFO] [1779351776.691558463] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-1] [INFO] [1779351776.691570710] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-1] [INFO] [1779351776.691578658] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-1] [INFO] [1779351776.691586475] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-1] [INFO] [1779351776.808513358] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[move_group-1] [INFO] [1779351776.885564840] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-1] [INFO] [1779351777.629126205] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-1] [INFO] [1779351777.629361800] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[move_group-1] [INFO] [1779351777.642954249] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[move_group-1] [INFO] [1779351777.645738385] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[move_group-1] [INFO] [1779351777.660342918] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[move_group-1] [INFO] [1779351777.660586820] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[move_group-1] [INFO] [1779351777.680903571] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[move_group-1] [INFO] [1779351777.682628695] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[rviz2-2] [INFO] [1779351781.613900830] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-2] [INFO] [1779351781.620349537] [rviz2]: OpenGl version: 4.1 (GLSL 4.1)
+[move_group-1] [INFO] [1779351781.737773416] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for joint_trajectory_controller
+[move_group-1] [INFO] [1779351782.144844140] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for gripper_controller
+[move_group-1] [INFO] [1779351782.147455292] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1779351782.147544204] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[move_group-1] [INFO] [1779351782.157892139] [moveit_ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-1] [INFO] [1779351782.157959959] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-1] [INFO] [1779351783.144205892] [move_group.move_group]: 
+[move_group-1] 
+[move_group-1] ********************************************************
+[move_group-1] * MoveGroup using: 
+[move_group-1] *     - ApplyPlanningSceneService
+[move_group-1] *     - ClearOctomapService
+[move_group-1] *     - CartesianPathService
+[move_group-1] *     - ExecuteTrajectoryAction
+[move_group-1] *     - GetPlanningSceneService
+[move_group-1] *     - KinematicsService
+[move_group-1] *     - MoveAction
+[move_group-1] *     - MotionPlanService
+[move_group-1] *     - QueryPlannersService
+[move_group-1] *     - StateValidationService
+[move_group-1] ********************************************************
+[move_group-1] 
+[move_group-1] [INFO] [1779351783.145531148] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-1] [INFO] [1779351783.145591426] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-1] [96mLoading 'move_group/ApplyPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/ClearOctomapService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupPlanService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[move_group-1] [0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[move_group-1] [0m[92m
+[move_group-1] You can start planning now!
+[move_group-1] 
+[rviz2-2] [INFO] [1779351783.522626322] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-2] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+[rviz2-2]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
+[rviz2-2] [ERROR] [1779351789.097410037] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[rviz2-2] [INFO] [1779351789.270524282] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[rviz2-2] Error:   Name of virtual joint is not specified
+[rviz2-2]          at line 94 in ./src/model.cpp
+[rviz2-2] [INFO] [1779351789.614708209] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0834666 seconds
+[rviz2-2] [INFO] [1779351789.614801354] [moveit_robot_model.robot_model]: Loading robot model 'abb_irb1200_5_90'...
+[rviz2-2] [INFO] [1779351789.614831619] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[rviz2-2] [WARN] [1779351790.021888702] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-2] [INFO] [1779351790.360100938] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[rviz2-2] [INFO] [1779351790.504890396] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[rviz2-2] [INFO] [1779351790.520638254] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[rviz2-2] [INFO] [1779351796.423240458] [interactive_marker_display_106406946445568]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[rviz2-2] [WARN] [1779351796.602799387] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-2] [WARN] [1779351796.607848282] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[rviz2-2] [INFO] [1779351796.904421968] [moveit_ros_visualization.motion_planning_frame]: group manipulator
+[rviz2-2] [INFO] [1779351796.922682855] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'manipulator' in namespace ''
+[rviz2-2] [INFO] [1779351797.917561119] [move_group_interface]: Ready to take commands for planning group manipulator.
+[rviz2-2] [INFO] [1779351798.933790619] [interactive_marker_display_106406946445568]: Sending request for interactive markers
+[rviz2-2] [INFO] [1779351799.566983702] [interactive_marker_display_106406946445568]: Service response received for initialization
+[rviz2-2] [INFO] [1779352125.180581170] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1779352125.205840078] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1779352125.217465732] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[rviz2-2] [INFO] [1779352125.254814976] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1779352125.288612695] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1779352125.288706029] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[move_group-1] [INFO] [1779352125.317751214] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_inner_finger_pad' (type 'Robot link') and 'left_inner_finger' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[move_group-1] [INFO] [1779352125.318542849] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[move_group-1] [INFO] [1779352125.318610483] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group manipulator
+[move_group-1] [WARN] [1779352125.611433842] [moveit_ros.fix_start_state_collision]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.020000 and 100 sampling attempts). Passing the original planning request to the planner.
+[move_group-1] [INFO] [1779352125.811643136] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [WARN] [1779352125.930573348] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352125.930835894] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352125.935969455] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352125.936107825] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352125.951179893] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352125.951358154] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352125.968722714] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352125.982924108] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352125.984666816] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.089808 seconds
+[move_group-1] [WARN] [1779352126.007536180] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [WARN] [1779352126.015857517] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352126.041455964] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [ERROR] [1779352126.067369868] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352126.120865731] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352126.132039189] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352126.133553583] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352126.133732890] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352126.133967931] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.145519 seconds
+[move_group-1] [WARN] [1779352126.188843746] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352126.192668968] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352126.199611813] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352126.199852139] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352126.211725949] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.034852 seconds
+[move_group-1] [INFO] [1779352126.223735289] [moveit.ompl_planning.model_based_planning_context]: Unable to solve the planning problem
+[move_group-1] [INFO] [1779352126.224696329] [moveit_move_group_default_capabilities.move_action_capability]: Catastrophic failure
+[rviz2-2] [INFO] [1779352126.383976901] [move_group_interface]: Planning request aborted
+[rviz2-2] [ERROR] [1779352126.411819414] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+[rviz2-2] [INFO] [1779352130.542433420] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1779352130.594101825] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1779352130.594682061] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[rviz2-2] [INFO] [1779352130.608496479] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1779352130.640236014] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1779352130.640314616] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[move_group-1] [INFO] [1779352130.663087144] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_inner_finger_pad' (type 'Robot link') and 'left_inner_finger' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[move_group-1] [INFO] [1779352130.663157642] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[move_group-1] [INFO] [1779352130.664300724] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group manipulator
+[move_group-1] [WARN] [1779352131.114356874] [moveit_ros.fix_start_state_collision]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.020000 and 100 sampling attempts). Passing the original planning request to the planner.
+[move_group-1] [INFO] [1779352131.116932050] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [WARN] [1779352131.119712277] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.120075556] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.123149560] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.123465567] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.123977220] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.124645865] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.139845862] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.139956204] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.141793156] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.024288 seconds
+[move_group-1] [WARN] [1779352131.191090608] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.191217526] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.195290498] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.195391539] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.274456798] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.274556916] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.274759250] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.274814637] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.303759423] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.122699 seconds
+[move_group-1] [WARN] [1779352131.313603463] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.313720816] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.328382035] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352131.328538729] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352131.334546212] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.030568 seconds
+[move_group-1] [INFO] [1779352131.352628293] [moveit.ompl_planning.model_based_planning_context]: Unable to solve the planning problem
+[move_group-1] [INFO] [1779352131.353221637] [moveit_move_group_default_capabilities.move_action_capability]: Catastrophic failure
+[rviz2-2] [INFO] [1779352131.387422962] [move_group_interface]: Planning request aborted
+[rviz2-2] [ERROR] [1779352131.388377064] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+[rviz2-2] [INFO] [1779352134.387664735] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1779352134.404375892] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1779352134.413906399] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[rviz2-2] [INFO] [1779352134.440844516] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1779352134.470028221] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1779352134.501789239] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[move_group-1] [INFO] [1779352134.502978930] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_inner_finger_pad' (type 'Robot link') and 'left_inner_finger' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[move_group-1] [INFO] [1779352134.503035424] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[move_group-1] [INFO] [1779352134.503061360] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group manipulator
+[move_group-1] [WARN] [1779352134.710557675] [moveit_ros.fix_start_state_collision]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.020000 and 100 sampling attempts). Passing the original planning request to the planner.
+[move_group-1] [INFO] [1779352134.713216235] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [WARN] [1779352134.736414896] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352134.736962736] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352134.737979649] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352134.738086750] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [INFO] [1779352134.760109854] [moveit_kinematic_constraints.kinematic_constraints]: Constraint satisfied:: Joint name: 'joint_1', actual value: 0.452969, desired value: 0.452909, tolerance_above: 0.000100, tolerance_below: 0.000100
+[move_group-1] [INFO] [1779352134.760651953] [moveit_kinematic_constraints.kinematic_constraints]: Constraint satisfied:: Joint name: 'joint_2', actual value: 0.225645, desired value: 0.225717, tolerance_above: 0.000100, tolerance_below: 0.000100
+[move_group-1] [INFO] [1779352134.760720635] [moveit_kinematic_constraints.kinematic_constraints]: Constraint satisfied:: Joint name: 'joint_3', actual value: -0.327051, desired value: -0.327139, tolerance_above: 0.000100, tolerance_below: 0.000100
+[move_group-1] [INFO] [1779352134.760766194] [moveit_kinematic_constraints.kinematic_constraints]: Constraint satisfied:: Joint name: 'joint_4', actual value: 0.798729, desired value: 0.798734, tolerance_above: 0.000100, tolerance_below: 0.000100
+[move_group-1] [INFO] [1779352134.760791440] [moveit_kinematic_constraints.kinematic_constraints]: Constraint satisfied:: Joint name: 'joint_5', actual value: 0.962800, desired value: 0.962797, tolerance_above: 0.000100, tolerance_below: 0.000100
+[move_group-1] [INFO] [1779352134.760815140] [moveit_kinematic_constraints.kinematic_constraints]: Constraint satisfied:: Joint name: 'joint_6', actual value: -5.883482, desired value: -5.883494, tolerance_above: 0.000100, tolerance_below: 0.000100
+[move_group-1] [INFO] [1779352134.760990202] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_inner_finger_pad' (type 'Robot link') and 'left_outer_finger' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[move_group-1] [INFO] [1779352134.761028513] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[move_group-1] [WARN] [1779352134.771433061] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352134.771606308] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352134.788633446] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352134.806012975] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352134.838006409] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.124296 seconds
+[move_group-1] [WARN] [1779352134.839243692] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352134.839395901] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352134.969777988] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352134.969967001] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352135.019943137] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352135.020106814] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352135.021795897] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352135.021922669] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352135.033948498] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.195653 seconds
+[move_group-1] [WARN] [1779352135.074942070] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352135.075806393] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352135.080471334] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352135.080832460] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352135.085536388] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.012189 seconds
+[move_group-1] [INFO] [1779352135.104496706] [moveit.ompl_planning.model_based_planning_context]: Unable to solve the planning problem
+[move_group-1] [INFO] [1779352135.104863434] [moveit_move_group_default_capabilities.move_action_capability]: Catastrophic failure
+[rviz2-2] [INFO] [1779352135.164501578] [move_group_interface]: Planning request aborted
+[rviz2-2] [ERROR] [1779352135.165662433] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+[rviz2-2] [INFO] [1779352145.204955987] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1779352145.229746104] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1779352145.352144738] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[rviz2-2] [INFO] [1779352145.386028557] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1779352145.461862635] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1779352145.464951294] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[move_group-1] [INFO] [1779352145.469603267] [moveit_collision_detection_fcl.collision_common]: Found a contact between 'right_inner_finger_pad' (type 'Robot link') and 'left_inner_finger' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[move_group-1] [INFO] [1779352145.469672638] [moveit_collision_detection_fcl.collision_common]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[move_group-1] [INFO] [1779352145.469695840] [moveit_ros.fix_start_state_collision]: Start state appears to be in collision with respect to group manipulator
+[move_group-1] [WARN] [1779352145.930713337] [moveit_ros.fix_start_state_collision]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.020000 and 100 sampling attempts). Passing the original planning request to the planner.
+[move_group-1] [INFO] [1779352145.932429378] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'manipulator' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-1] [WARN] [1779352145.960756361] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352145.960951667] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352145.963443626] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352145.963543314] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352145.965546071] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352145.965663836] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.000565991] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352146.000692842] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.004250971] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.071085 seconds
+[move_group-1] [WARN] [1779352146.011452928] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352146.011571164] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.012482880] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352146.012586173] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.022456437] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352146.022619867] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.022936576] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352146.023032051] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.030223964] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.025157 seconds
+[move_group-1] [WARN] [1779352146.033501891] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352146.033652298] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.045153449] [ompl]: ./src/ompl/base/src/Planner.cpp:248 - manipulator/manipulator: Skipping invalid start state (invalid state)
+[move_group-1] [ERROR] [1779352146.057813504] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:219 - manipulator/manipulator: Motion planning start tree could not be initialized!
+[move_group-1] [WARN] [1779352146.068894742] [ompl]: ./src/ompl/tools/multiplan/src/ParallelPlan.cpp:138 - ParallelPlan::solve(): Unable to find solution by any of the threads in 0.038426 seconds
+[move_group-1] [INFO] [1779352146.074997975] [moveit.ompl_planning.model_based_planning_context]: Unable to solve the planning problem
+[move_group-1] [INFO] [1779352146.075110910] [moveit_move_group_default_capabilities.move_action_capability]: Catastrophic failure
+[rviz2-2] [INFO] [1779352146.120668581] [move_group_interface]: Planning request aborted
+[rviz2-2] [ERROR] [1779352146.128662691] [move_group_interface]: MoveGroupInterface::plan() failed or timeout reached
+[rviz2-2] [INFO] [1779352166.244737439] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[rviz2-2] [INFO] [1779352166.245022369] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[ERROR] [rviz2-2]: process has died [pid 6776, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/rohit_bot/abb_ws/install/abb_irb1200_5_90_moveit_config/share/abb_irb1200_5_90_moveit_config/rviz/moveit.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_p3e4c3xn'].

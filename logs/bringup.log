@@ -1,0 +1,77 @@
+[INFO] [launch]: All log files can be found below /home/rohit_bot/.ros/log/2026-05-21-13-52-16-730933-Ubuntu-6671
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ros2_control_node-1]: process started with pid [6675]
+[INFO] [robot_state_publisher-2]: process started with pid [6677]
+[INFO] [spawner-3]: process started with pid [6679]
+[INFO] [spawner-4]: process started with pid [6681]
+[INFO] [spawner-5]: process started with pid [6683]
+[robot_state_publisher-2] [WARN] [1779351740.351260125] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-2] [INFO] [1779351740.365148402] [robot_state_publisher]: got segment base
+[robot_state_publisher-2] [INFO] [1779351740.365351793] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1779351740.365401488] [robot_state_publisher]: got segment flange
+[robot_state_publisher-2] [INFO] [1779351740.365433056] [robot_state_publisher]: got segment left_inner_finger
+[robot_state_publisher-2] [INFO] [1779351740.365460356] [robot_state_publisher]: got segment left_inner_finger_pad
+[robot_state_publisher-2] [INFO] [1779351740.365486618] [robot_state_publisher]: got segment left_inner_knuckle
+[robot_state_publisher-2] [INFO] [1779351740.365514722] [robot_state_publisher]: got segment left_outer_finger
+[robot_state_publisher-2] [INFO] [1779351740.365539127] [robot_state_publisher]: got segment left_outer_knuckle
+[robot_state_publisher-2] [INFO] [1779351740.365567099] [robot_state_publisher]: got segment link_1
+[robot_state_publisher-2] [INFO] [1779351740.365596177] [robot_state_publisher]: got segment link_2
+[robot_state_publisher-2] [INFO] [1779351740.365621571] [robot_state_publisher]: got segment link_3
+[robot_state_publisher-2] [INFO] [1779351740.365639207] [robot_state_publisher]: got segment link_4
+[robot_state_publisher-2] [INFO] [1779351740.365654628] [robot_state_publisher]: got segment link_5
+[robot_state_publisher-2] [INFO] [1779351740.365669582] [robot_state_publisher]: got segment link_6
+[robot_state_publisher-2] [INFO] [1779351740.365684578] [robot_state_publisher]: got segment right_inner_finger
+[robot_state_publisher-2] [INFO] [1779351740.365700232] [robot_state_publisher]: got segment right_inner_finger_pad
+[robot_state_publisher-2] [INFO] [1779351740.365715864] [robot_state_publisher]: got segment right_inner_knuckle
+[robot_state_publisher-2] [INFO] [1779351740.415645695] [robot_state_publisher]: got segment right_outer_finger
+[robot_state_publisher-2] [INFO] [1779351740.415704131] [robot_state_publisher]: got segment right_outer_knuckle
+[robot_state_publisher-2] [INFO] [1779351740.415726764] [robot_state_publisher]: got segment robotiq_140_base_link
+[robot_state_publisher-2] [INFO] [1779351740.415745159] [robot_state_publisher]: got segment robotiq_base_link
+[robot_state_publisher-2] [INFO] [1779351740.415762626] [robot_state_publisher]: got segment tool0
+[ros2_control_node-1] [WARN] [1779351740.993220395] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[ros2_control_node-1] [INFO] [1779351740.998882974] [resource_manager]: Loading hardware 'RobotiqGripper' 
+[ros2_control_node-1] [INFO] [1779351741.000137164] [resource_manager]: Initialize hardware 'RobotiqGripper' 
+[ros2_control_node-1] [INFO] [1779351741.000365742] [resource_manager]: Successful initialization of hardware 'RobotiqGripper'
+[ros2_control_node-1] [INFO] [1779351741.000432816] [resource_manager]: Loading hardware 'ABBMultiInterfaceHardware' 
+[ros2_control_node-1] [INFO] [1779351741.000464357] [resource_manager]: Initialize hardware 'ABBMultiInterfaceHardware' 
+[ros2_control_node-1] [WARN] [1779351741.000491213] [mock_generic_system]: Parameter 'fake_sensor_commands' has been deprecated from usage. Use'mock_sensor_commands' instead.
+[ros2_control_node-1] [INFO] [1779351741.000526163] [resource_manager]: Successful initialization of hardware 'ABBMultiInterfaceHardware'
+[ros2_control_node-1] [INFO] [1779351741.000656188] [resource_manager]: 'configure' hardware 'ABBMultiInterfaceHardware' 
+[ros2_control_node-1] [INFO] [1779351741.000675502] [resource_manager]: Successful 'configure' of hardware 'ABBMultiInterfaceHardware'
+[ros2_control_node-1] [INFO] [1779351741.000693475] [resource_manager]: 'activate' hardware 'ABBMultiInterfaceHardware' 
+[ros2_control_node-1] [INFO] [1779351741.000704781] [resource_manager]: Successful 'activate' of hardware 'ABBMultiInterfaceHardware'
+[ros2_control_node-1] [INFO] [1779351741.000714376] [resource_manager]: 'configure' hardware 'RobotiqGripper' 
+[ros2_control_node-1] [INFO] [1779351741.000724405] [resource_manager]: Successful 'configure' of hardware 'RobotiqGripper'
+[ros2_control_node-1] [INFO] [1779351741.000737924] [resource_manager]: 'activate' hardware 'RobotiqGripper' 
+[ros2_control_node-1] [INFO] [1779351741.000748385] [resource_manager]: Successful 'activate' of hardware 'RobotiqGripper'
+[ros2_control_node-1] [INFO] [1779351741.152234388] [controller_manager]: update rate is 250 Hz
+[ros2_control_node-1] [INFO] [1779351741.152580690] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[ros2_control_node-1] [WARN] [1779351741.157366768] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[ros2_control_node-1] [INFO] [1779351744.898630576] [controller_manager]: Loading controller 'joint_trajectory_controller'
+[ros2_control_node-1] [WARN] [1779351746.028357456] [joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[ros2_control_node-1] [INFO] [1779351746.231141641] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[ros2_control_node-1] [INFO] [1779351746.597953803] [controller_manager]: Loading controller 'gripper_controller'
+[spawner-4] [INFO] [1779351746.813383647] [spawner_joint_trajectory_controller]: [94mLoaded [1mjoint_trajectory_controller[0m
+[ros2_control_node-1] [WARN] [1779351747.169801584] [gripper_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[ros2_control_node-1] [INFO] [1779351747.197691968] [controller_manager]: Configuring controller 'joint_trajectory_controller'
+[ros2_control_node-1] [INFO] [1779351747.198770628] [joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ros2_control_node-1] [INFO] [1779351747.198862160] [joint_trajectory_controller]: Command interfaces are [position velocity] and state interfaces are [position velocity].
+[ros2_control_node-1] [INFO] [1779351747.199567694] [joint_trajectory_controller]: Using 'splines' interpolation method.
+[ros2_control_node-1] [INFO] [1779351747.275424138] [joint_trajectory_controller]: Controller state will be published at 100.00 Hz.
+[ros2_control_node-1] [INFO] [1779351747.492370633] [joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-3] [INFO] [1779351747.755091658] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[ros2_control_node-1] [INFO] [1779351747.899542664] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[ros2_control_node-1] [INFO] [1779351747.900988304] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-4] [INFO] [1779351748.456061041] [spawner_joint_trajectory_controller]: [92mConfigured and activated [1mjoint_trajectory_controller[0m
+[spawner-3] [INFO] [1779351748.638410021] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[spawner-5] [INFO] [1779351748.721709219] [spawner_gripper_controller]: [94mLoaded [1mgripper_controller[0m
+[ros2_control_node-1] [INFO] [1779351748.826118422] [controller_manager]: Configuring controller 'gripper_controller'
+[ros2_control_node-1] [INFO] [1779351748.831916503] [gripper_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ros2_control_node-1] [INFO] [1779351748.838476541] [gripper_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[ros2_control_node-1] [INFO] [1779351748.838619567] [gripper_controller]: Using 'splines' interpolation method.
+[ros2_control_node-1] [INFO] [1779351748.929502911] [gripper_controller]: Controller state will be published at 100.00 Hz.
+[ros2_control_node-1] [INFO] [1779351749.295167216] [gripper_controller]: Action status changes will be monitored at 20.00 Hz.
+[spawner-5] [INFO] [1779351750.034314618] [spawner_gripper_controller]: [92mConfigured and activated [1mgripper_controller[0m
+[INFO] [spawner-3]: process has finished cleanly [pid 6679]
+[INFO] [spawner-4]: process has finished cleanly [pid 6681]
+[INFO] [spawner-5]: process has finished cleanly [pid 6683]
